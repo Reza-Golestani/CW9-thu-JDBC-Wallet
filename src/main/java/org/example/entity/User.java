@@ -13,8 +13,8 @@ import java.util.List;
 @AllArgsConstructor
 
 public class User {
-    private int id;
+    private Long id;
     private String username;
     private String password;
-    private List<Wallet> wallets = new ArrayList<Wallet>();
+    private List<Wallet> wallets = new ArrayList<Wallet>(); //todo: ?: آیا این اشتباهه؟ اضافیه؟
 }

@@ -12,7 +12,7 @@ import java.util.List;
 @AllArgsConstructor
 
 public class Wallet {
-    private int id;
+    private Long id;
     private int userId;
     private double balance;
     private String address;

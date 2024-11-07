@@ -12,7 +12,7 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 
 public class Transaction {
-    private int id;
+    private Long id;
     private TransactionType type;
     private LocalDateTime time;
     private double amount;
