@@ -16,5 +16,5 @@ public class Wallet {
     private int userId;
     private double balance;
     private String address;
-    private List<Transaction> transactions = new LinkedList<Transaction>();
+    private List<Integer> transactionsId = new LinkedList<Integer>();
 }

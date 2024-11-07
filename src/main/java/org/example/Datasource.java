@@ -15,7 +15,8 @@ public class Datasource {
     }
 
     static {
-        var jdbc = "jdbc:postgresql://localhost:5432/some-postgres";
+        var jdbc = "jdbc:postgresql://localhost:5432/postgres";//todo: چرا سام-پست گرس کار نکرد
+        // در صورتی که توی داکر بالا هستش
         try {
             connection = DriverManager.getConnection(jdbc, "postgres", "postgres");
         } catch (SQLException e) {

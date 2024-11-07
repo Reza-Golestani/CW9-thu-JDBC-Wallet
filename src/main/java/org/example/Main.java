@@ -16,6 +16,8 @@ public class Main {
         User user2 = new User(null, "Ali", "Amery", null);
         User user3 = new User(null, "Mohamad Mehdi", "Mohamadi", null);
 
+//        UserRepository.tableInit();
+
         userRepository.save(user1);
         userRepository.save(user2);
         userRepository.save(user3);
